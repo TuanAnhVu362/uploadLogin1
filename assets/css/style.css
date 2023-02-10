@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    background-image: url(../img/pexels-pixabay-326058.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form {}
+
+.heading {
+    color: white;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+.heading h2 {
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.heading h3 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.signin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 250px;
+}
+
+.user input {
+    width: 435px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: solid 1px;
+    background-color: transparent;
+    border-style: ridge;
+}
+
+.user ::-webkit-input-placeholder{
+    color: white;
+}
+
+.pass input {
+    width: 435px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px;
+    background-color: transparent;
+    border-style: ridge;
+}
+
+.pass ::-webkit-input-placeholder{
+    color: white;
+}
+
+.click input {
+    width: 435px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid transparent 1px;
+    background-color: rgb(250, 199, 104);
+    cursor: pointer;
+}
+
+.click input:hover{
+    background-color: rgb(245, 169, 28);
+
+}
+
+.ReFor {
+    display: flex;
+    margin-top: 10px;
+}
+
+.ReFor a {
+    text-decoration: none;
+    margin-left: 190px;
+    font-size: 16px;
+    color: white;
+}
+
+.ReFor p {
+    margin-left: 8px;
+    color: rgb(241, 164, 21);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.topic h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.fb button {
+    padding: 10px 80px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: solid transparent 1px;
+}
+
+.twit button {
+    padding: 10px 80px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: solid transparent 1px;
+}
+
+.fb button:hover{
+    background-color: rgb(156, 150, 150);
+}
+
+.twit button:hover {
+    background-color: rgb(156, 150, 150);
+}
